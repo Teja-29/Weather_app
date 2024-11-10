@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.weather-container {
+  position: absolute;
+  top: 10%;       
+  left: 600px;      
+  width: 300px;  
+  background: linear-gradient(135deg, #89CFF0, #7BAFD4); /* Example Cool Blue Gradient */
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+
+/* Flexbox for input and search icon */
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Rounded corners */
+  padding: 5px;
+}
+
+/* Styling the input field */
+#city_name {
+  flex: 1;                   /* Takes up available space */
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 10px ; /* Rounds left corners */
+  background: #FFFFFF; /* Input Background */
+    color: #3C4F76;
+}
+
+/* Styling the search icon */
+.material-symbols-outlined {
+  cursor: pointer;
+  padding: 5px;
+  color: #666;
+  border-radius: 10px ; /* Rounds right corners */
+  background-color: #f0f0f0;    /* Optional background color */
+  color: #3C4F76; 
+  margin: 5px;  
+}
+
+.heading{
+  padding:30px;
+  text-align: center;
+}
+#weatherDisplay {
+  margin-top: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+.hidden {
+  display: none;
+}
+#cityName,#temp,#description,#weatherIcon{
+  padding: 10px;
+}

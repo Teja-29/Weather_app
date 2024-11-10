@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+  <link rel="stylesheet" href="style.css">
+  <script ></script>
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="weather-container">
+    <h2 class="heading">Weather App</h2>
+    <div class="input-group">
+      <input type="text" name="city_name" id="city_name" placeholder="Enter city name">
+      <span class="material-symbols-outlined" onclick="getWeather()">search</span>
+    </div>
+    <div id="weatherDisplay" class="hidden">
+      <h2 id="cityName"></h2>
+      <p id="temp"></p>
+      <p id="description"></p>
+      <img id="weatherIcon" alt="Weather icon">
+    </div>
+  </div>
+  <script src = "script.js"></script>
+</body>
+</html>
